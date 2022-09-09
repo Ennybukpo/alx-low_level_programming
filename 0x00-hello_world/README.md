@@ -7,3 +7,4 @@ to print
 hello printf
 to check var size
 generates the assembly code (Intel syntax) of a C code and save it in an output file
+Dora's quote
