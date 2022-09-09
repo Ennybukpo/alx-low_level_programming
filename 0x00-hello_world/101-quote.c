@@ -3,9 +3,9 @@
 /**
  * main - print quote
  *
- * description: print Dora's quote
+ * description: print Dora's Quote
  *
- * return: Always 1 (success)
+ * Return: Always 1 (success)
  */
 int main(void)
 {
