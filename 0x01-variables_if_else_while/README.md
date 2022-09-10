@@ -7,3 +7,4 @@ print all numbers of base 16 in lowercase
 print all possible combinations of single-digit number
  prints all possible different combinations of two digits
 print all possible combinations of 3 digits in ascending order, seperated by a comma and space
+prints all possible combinations of 3 digits in ascending order
