@@ -1,4 +1,4 @@
-#include "../main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,11 +7,10 @@
  */
 int main(void)
 {
-	char c;
+	int i;
 
-	c = 'A';
-	printf("%c: %d\n", c, _isuper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isuper(c));
+	i = 0;
+	positive_or_negative(i);
+
 	return (0);
 }
