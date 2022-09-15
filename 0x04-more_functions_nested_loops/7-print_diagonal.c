@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints diagonal
+ * print_diagonal - prints slash
  * @n: parameter
  */
 
-void print_diagonal(int n)void print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i = 0;
 	int j;
