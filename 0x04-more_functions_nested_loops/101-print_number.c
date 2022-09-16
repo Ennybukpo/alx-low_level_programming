@@ -3,7 +3,6 @@
 /**
  * print_number - prints integers
  * @n: the numb
- * Return: 0
  */
 
 void print_number(int n)
@@ -14,6 +13,10 @@ void print_number(int n)
 	{
 		_putchar(45);
 		i = n * -1;
+	}
+	else
+	{
+		i = n
 	}
 
 	j = i;
