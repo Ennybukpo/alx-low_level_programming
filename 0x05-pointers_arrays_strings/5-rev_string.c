@@ -17,7 +17,7 @@ void rev_string(char *s)
 	}
 	size = i - 1;
 	half = size / 2;
-	while half >= 0;
+	while (half >= 0)
 	{
 		first = s[size - half];
 		last = s[half];
