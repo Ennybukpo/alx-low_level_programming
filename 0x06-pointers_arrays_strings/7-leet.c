@@ -5,7 +5,7 @@
  * Return: dest
  */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int count = 0, i;
 	int lower_case[] = {97, 101, 111, 116, 108};
