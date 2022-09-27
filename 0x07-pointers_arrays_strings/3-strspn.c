@@ -29,8 +29,8 @@ unsigned int _strspn(char *s, char *accept)
 				count++; /*count number*/
 				break;
 			}
-			
-			j++; /*j increment*/
+
+			j++;    /*add j+1*/
 		}
 
 		if (s[i] != accept[j]) /*If its not equal*/
