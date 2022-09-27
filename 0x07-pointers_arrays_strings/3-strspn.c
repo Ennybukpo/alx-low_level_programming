@@ -18,7 +18,7 @@ unsigned int _strspn(char *s, char *accept)
 	str1 = s;
 	str2 = accept;
 
-	i =0;
+	i = 0;
 	while (str1[i] != '\0') /*Declaring WHILE *s */
 	{
 		j = 0;
@@ -30,7 +30,7 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 			
-			j++;    /*j increment*/
+			j++; /*j increment*/
 		}
 
 		if (s[i] != accept[j]) /*If its not equal*/
