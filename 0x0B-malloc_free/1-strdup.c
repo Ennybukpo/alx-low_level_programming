@@ -15,6 +15,9 @@ int _strlen(char *s)
 		i++;
 	}
 
+	return (i);
+}
+
 	/**
 	 * _strcpy - copy arrays
 	 * @src: array of elements
