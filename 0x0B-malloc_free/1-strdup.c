@@ -20,8 +20,8 @@ int _strlen(char *s)
 
 	/**
 	 * _strcpy - copy arrays
+	 * @dest: dest
 	 * @src: array of elements
-	 * @dest: dest array
 	 * Return: dest
 	 */
 
