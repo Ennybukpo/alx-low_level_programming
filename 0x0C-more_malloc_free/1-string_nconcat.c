@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *string_nconcat - concatenates two strings.
+ * string_nconcat - concatenates two strings.
  * @s1: first string
  * @s2: second string
  * @n: index
@@ -41,7 +41,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		p[i] = s1[i];
 	}
 
-	for (; i < (size1 + n); i++)
+	for (i < (size1 + n); i++)
 	{
 		p[i] = s2[i - size1];
 	}
